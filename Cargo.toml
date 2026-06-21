@@ -1,6 +1,6 @@
 [package]
 name = "bevy_unified_input"
-version = "0.2.1"
+version = "0.3.0"
 authors = ["Oleks Pickle <22867443+olekspickle@users.noreply.github.com>"]
 description = "A unified input primitives"
 keywords = ["bevy", "inoput"]
@@ -13,15 +13,15 @@ edition = "2024"
 
 [dependencies]
 bevy_input = { version = "0.18", features = ["gamepad", "mouse", "keyboard"] }
-bevy_ecs = { version = "0.18", default-features = false }
+bevy_ecs = { version = "0.19", default-features = false }
 
 [dev-dependencies.bevy]
-version = "0.18"
+version = "0.19"
 default-features = false
-features = [ "3d_bevy_render", "ui_bevy_render", "wayland", "debug", "default_font"  ]
+features = [ "3d", "ui", "debug" ]
 
 [dev-dependencies]
-bevy_top_down_camera = "0.3"
+# bevy_top_down_camera = "0.4"
 
 [features]
 default = []
