@@ -12,7 +12,7 @@ readme = "README.md"
 edition = "2024"
 
 [dependencies]
-bevy_input = { version = "0.18", features = ["gamepad", "mouse", "keyboard"] }
+bevy_input = { version = "0.19", features = ["gamepad", "mouse", "keyboard"] }
 bevy_ecs = { version = "0.19", default-features = false }
 
 [dev-dependencies.bevy]
@@ -20,8 +20,6 @@ version = "0.19"
 default-features = false
 features = [ "3d", "ui", "debug" ]
 
-[dev-dependencies]
-# bevy_top_down_camera = "0.4"
 
 [features]
 default = []

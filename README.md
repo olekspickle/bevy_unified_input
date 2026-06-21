@@ -27,10 +27,13 @@ impl Default for MyInput {
 }
 ```
 
+Full example see [`bevy_top_down_camera`](https://github.com/olekspickle/bevy_top_down_camera) examples.
+
 ## Bevy Version Compatibility
 
 | bevy | bevy_unified_input   |
 | ---- | -------------------- |
+| 0.19 | 0.3.0                |
 | 0.18 | 0.1.0-0.2.*          |
 
 
