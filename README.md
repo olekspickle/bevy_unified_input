@@ -33,6 +33,7 @@ Full example see [`bevy_top_down_camera`](https://github.com/olekspickle/bevy_to
 
 | bevy | bevy_unified_input   |
 | ---- | -------------------- |
+| 0.20 | 0.4.0                |
 | 0.19 | 0.3.0                |
 | 0.18 | 0.1.0-0.2.*          |
 
